@@ -26,7 +26,7 @@ int main() {
     Student student1("Jim", "Buisness", 2.4);
     Student student2("Pam", "Art", 4.0);
 
-    cout << student1.hasHonors();
+    cout << student1.hasHonors(); // Print out '0' which means false, whereas '1' means true
 
     return 0;
 }
